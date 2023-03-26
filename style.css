@@ -130,6 +130,10 @@ header {
     justify-content: space-between;
 }
 
+.top-blog-desc-text {
+    font-size: 1.35rem;
+}
+
 button.read-more {
     background-color: var(--clr-red);
     width: 12rem;
