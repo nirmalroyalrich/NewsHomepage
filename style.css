@@ -150,6 +150,7 @@ button.read-more {
 
 .new-news-wrapper {
     flex: 1;
+    padding: 2rem 0;
     justify-content: space-around;
 }
 
@@ -162,7 +163,11 @@ p {
 }
 
 .blog-list {
-    height: 8rem;
+    height: fit-content;  
+}
+
+.blog {
+    height: 10rem;
 }
 
 .blog-content {
@@ -171,6 +176,48 @@ p {
 
 h3 {
     font-weight: 800;
+}
+
+@media only screen and (max-width: 950px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .homepage {
+        width: 100vw;
+        height: fit-content;
+        padding: 2rem 2rem;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .top-blog > img {
+        content: url("assets/images/image-web-3-mobile.jpg");
+    }
+
+    .top-blog-title > h1 {
+        width: 100%;
+    }
+
+    .top-blog-desc-text {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .blog {
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .blog > img {
+        height: 12rem;
+    }
 }
 
 
