@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="homepage">
+    
+    <header>
+      <img src="assets/images/logo.svg" alt="W." class="logo">
+      <div class="button-list">
+        <a href="#" >Home</a>
+        <a href="#" >New</a>
+        <a href="#" >Popular</a>
+        <a href="#" >Trending</a>
+        <a href="#" >Categories</a>
+      </div>
+    </header>
+
+    <section class="main-content">
+      <div class="hero-section">
+        <div class="top-blog">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="" class="hero-image">
+          <div class="top-blog-content flex">
+            <div class="top-blog-title"><h1>The Bright Future of Web 3.0?</h1></div>
+            <div class="top-blog-desc flex-column">
+              <p class="top-blog-desc-text">
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="read-more white">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-news flex-column">
+          <h1 class="new-title orange">New</h1>
+          <div class="new-news-wrapper flex-column">
+            <div class="new-news-content flex-column">
+              <h3>Hydrogen VS Electric Cars</h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <hr>
+            <div class="new-news-content flex-column">
+              <h3>The Downsides of AI Artistry</h3>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <hr>
+            <div class="new-news-content flex-column">
+              <h3>Is VC Funding Drying Up?</h3>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog-list flex">
+        <div class="blog flex">
+          <img src="assets/images/image-retro-pcs.jpg" alt="pc-image">
+          <div class="blog-content flex-column">
+            <h2 class="darkgrayblue">01</h2>
+            <h3>Reviving Retro PCs</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="blog flex">
+          <img src="assets/images/image-top-laptops.jpg" alt="keyboard-image">
+          <div class="blog-content flex-column">
+            <h2 class="darkgrayblue">02</h2>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="blog flex">
+          <img src="assets/images/image-gaming-growth.jpg" alt="controller-image">
+          <div class="blog-content flex-column">
+            <h2 class="darkgrayblue">03</h2>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Nirmal Roy</a>.
+    </div>
+  </main>
+</body>
+</html>
