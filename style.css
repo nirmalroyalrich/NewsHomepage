@@ -66,6 +66,7 @@ h1 {
 
 .homepage {
     width: 100vw;
+    height: fit-content;
     padding: 2rem 6rem;
 }
 
@@ -75,6 +76,7 @@ header {
     height: 5vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 2rem 0;
 }
 
@@ -189,7 +191,6 @@ h3 {
 
     .homepage {
         width: 100vw;
-        height: fit-content;
         padding: 2rem 2rem;
     }
 
